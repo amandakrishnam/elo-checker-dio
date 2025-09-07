@@ -22,7 +22,7 @@ function calcularElo(){
     }
 
     resultado = document.getElementById("resultado")
-    resultado.innerText = `O Herói de nome ${nomeHeroi} está no elo ${elo}`
+    resultado.innerText = `O Herói de nome ${nomeHeroi} está no nível de ${elo}`
     // torna os inputs vazios após chamar a função
     document.getElementById("xp").value = "";
     document.getElementById("hero").value = "";
