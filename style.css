@@ -1,0 +1,70 @@
+    :root {
+      --valorant-red: #ff4655;
+      --valorant-dark: #0f1923;
+      --valorant-gray: #1c1c1c;
+      --valorant-white: #ece8e1;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--valorant-dark);
+      color: var(--valorant-white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: var(--valorant-gray);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 70, 85, 0.3);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--valorant-red);
+      margin-bottom: 1.5rem;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 5px;
+      background-color: var(--valorant-dark);
+      color: var(--valorant-white);
+    }
+
+    button {
+      width: 100%;
+      padding: 0.7rem;
+      background-color: var(--valorant-red);
+      color: var(--valorant-white);
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e03a4a;
+    }
+
+    .result {
+      margin-top: 1.5rem;
+      text-align: center;
+      font-size: 1.2rem;
+    }
